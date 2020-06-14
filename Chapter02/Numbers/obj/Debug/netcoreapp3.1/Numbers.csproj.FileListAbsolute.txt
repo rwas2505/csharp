@@ -1,0 +1,12 @@
+/Users/ryan/Desktop/csharp/Chapter02/Numbers/bin/Debug/netcoreapp3.1/Numbers.deps.json
+/Users/ryan/Desktop/csharp/Chapter02/Numbers/bin/Debug/netcoreapp3.1/Numbers.runtimeconfig.json
+/Users/ryan/Desktop/csharp/Chapter02/Numbers/bin/Debug/netcoreapp3.1/Numbers.runtimeconfig.dev.json
+/Users/ryan/Desktop/csharp/Chapter02/Numbers/bin/Debug/netcoreapp3.1/Numbers.dll
+/Users/ryan/Desktop/csharp/Chapter02/Numbers/bin/Debug/netcoreapp3.1/Numbers.pdb
+/Users/ryan/Desktop/csharp/Chapter02/Numbers/obj/Debug/netcoreapp3.1/Numbers.csprojAssemblyReference.cache
+/Users/ryan/Desktop/csharp/Chapter02/Numbers/obj/Debug/netcoreapp3.1/Numbers.AssemblyInfoInputs.cache
+/Users/ryan/Desktop/csharp/Chapter02/Numbers/obj/Debug/netcoreapp3.1/Numbers.AssemblyInfo.cs
+/Users/ryan/Desktop/csharp/Chapter02/Numbers/obj/Debug/netcoreapp3.1/Numbers.csproj.CoreCompileInputs.cache
+/Users/ryan/Desktop/csharp/Chapter02/Numbers/obj/Debug/netcoreapp3.1/Numbers.dll
+/Users/ryan/Desktop/csharp/Chapter02/Numbers/obj/Debug/netcoreapp3.1/Numbers.pdb
+/Users/ryan/Desktop/csharp/Chapter02/Numbers/obj/Debug/netcoreapp3.1/Numbers.genruntimeconfig.cache

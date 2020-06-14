@@ -1,0 +1,12 @@
+/Users/ryan/Desktop/csharp/Chapter02/Variables/obj/Debug/netcoreapp3.1/Variables.csprojAssemblyReference.cache
+/Users/ryan/Desktop/csharp/Chapter02/Variables/obj/Debug/netcoreapp3.1/Variables.AssemblyInfoInputs.cache
+/Users/ryan/Desktop/csharp/Chapter02/Variables/obj/Debug/netcoreapp3.1/Variables.AssemblyInfo.cs
+/Users/ryan/Desktop/csharp/Chapter02/Variables/obj/Debug/netcoreapp3.1/Variables.csproj.CoreCompileInputs.cache
+/Users/ryan/Desktop/csharp/Chapter02/Variables/bin/Debug/netcoreapp3.1/Variables.deps.json
+/Users/ryan/Desktop/csharp/Chapter02/Variables/bin/Debug/netcoreapp3.1/Variables.runtimeconfig.json
+/Users/ryan/Desktop/csharp/Chapter02/Variables/bin/Debug/netcoreapp3.1/Variables.runtimeconfig.dev.json
+/Users/ryan/Desktop/csharp/Chapter02/Variables/bin/Debug/netcoreapp3.1/Variables.dll
+/Users/ryan/Desktop/csharp/Chapter02/Variables/bin/Debug/netcoreapp3.1/Variables.pdb
+/Users/ryan/Desktop/csharp/Chapter02/Variables/obj/Debug/netcoreapp3.1/Variables.dll
+/Users/ryan/Desktop/csharp/Chapter02/Variables/obj/Debug/netcoreapp3.1/Variables.pdb
+/Users/ryan/Desktop/csharp/Chapter02/Variables/obj/Debug/netcoreapp3.1/Variables.genruntimeconfig.cache
