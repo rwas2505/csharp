@@ -1,0 +1,12 @@
+/Users/ryan/Desktop/csharp/Chapter02/Arguments/bin/Debug/netcoreapp3.1/Arguments.deps.json
+/Users/ryan/Desktop/csharp/Chapter02/Arguments/bin/Debug/netcoreapp3.1/Arguments.runtimeconfig.json
+/Users/ryan/Desktop/csharp/Chapter02/Arguments/bin/Debug/netcoreapp3.1/Arguments.runtimeconfig.dev.json
+/Users/ryan/Desktop/csharp/Chapter02/Arguments/bin/Debug/netcoreapp3.1/Arguments.dll
+/Users/ryan/Desktop/csharp/Chapter02/Arguments/bin/Debug/netcoreapp3.1/Arguments.pdb
+/Users/ryan/Desktop/csharp/Chapter02/Arguments/obj/Debug/netcoreapp3.1/Arguments.csprojAssemblyReference.cache
+/Users/ryan/Desktop/csharp/Chapter02/Arguments/obj/Debug/netcoreapp3.1/Arguments.AssemblyInfoInputs.cache
+/Users/ryan/Desktop/csharp/Chapter02/Arguments/obj/Debug/netcoreapp3.1/Arguments.AssemblyInfo.cs
+/Users/ryan/Desktop/csharp/Chapter02/Arguments/obj/Debug/netcoreapp3.1/Arguments.csproj.CoreCompileInputs.cache
+/Users/ryan/Desktop/csharp/Chapter02/Arguments/obj/Debug/netcoreapp3.1/Arguments.dll
+/Users/ryan/Desktop/csharp/Chapter02/Arguments/obj/Debug/netcoreapp3.1/Arguments.pdb
+/Users/ryan/Desktop/csharp/Chapter02/Arguments/obj/Debug/netcoreapp3.1/Arguments.genruntimeconfig.cache
