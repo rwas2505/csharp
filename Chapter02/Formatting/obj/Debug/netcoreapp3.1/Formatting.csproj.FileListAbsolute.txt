@@ -1,0 +1,12 @@
+/Users/ryan/Desktop/csharp/Chapter02/Formatting/bin/Debug/netcoreapp3.1/Formatting.deps.json
+/Users/ryan/Desktop/csharp/Chapter02/Formatting/bin/Debug/netcoreapp3.1/Formatting.runtimeconfig.json
+/Users/ryan/Desktop/csharp/Chapter02/Formatting/bin/Debug/netcoreapp3.1/Formatting.runtimeconfig.dev.json
+/Users/ryan/Desktop/csharp/Chapter02/Formatting/bin/Debug/netcoreapp3.1/Formatting.dll
+/Users/ryan/Desktop/csharp/Chapter02/Formatting/bin/Debug/netcoreapp3.1/Formatting.pdb
+/Users/ryan/Desktop/csharp/Chapter02/Formatting/obj/Debug/netcoreapp3.1/Formatting.csprojAssemblyReference.cache
+/Users/ryan/Desktop/csharp/Chapter02/Formatting/obj/Debug/netcoreapp3.1/Formatting.AssemblyInfoInputs.cache
+/Users/ryan/Desktop/csharp/Chapter02/Formatting/obj/Debug/netcoreapp3.1/Formatting.AssemblyInfo.cs
+/Users/ryan/Desktop/csharp/Chapter02/Formatting/obj/Debug/netcoreapp3.1/Formatting.csproj.CoreCompileInputs.cache
+/Users/ryan/Desktop/csharp/Chapter02/Formatting/obj/Debug/netcoreapp3.1/Formatting.dll
+/Users/ryan/Desktop/csharp/Chapter02/Formatting/obj/Debug/netcoreapp3.1/Formatting.pdb
+/Users/ryan/Desktop/csharp/Chapter02/Formatting/obj/Debug/netcoreapp3.1/Formatting.genruntimeconfig.cache
