@@ -1,0 +1,12 @@
+/Users/ryan/Desktop/csharp/Chapter02/Exercise02/bin/Debug/netcoreapp3.1/Exercise02.deps.json
+/Users/ryan/Desktop/csharp/Chapter02/Exercise02/bin/Debug/netcoreapp3.1/Exercise02.runtimeconfig.json
+/Users/ryan/Desktop/csharp/Chapter02/Exercise02/bin/Debug/netcoreapp3.1/Exercise02.runtimeconfig.dev.json
+/Users/ryan/Desktop/csharp/Chapter02/Exercise02/bin/Debug/netcoreapp3.1/Exercise02.dll
+/Users/ryan/Desktop/csharp/Chapter02/Exercise02/bin/Debug/netcoreapp3.1/Exercise02.pdb
+/Users/ryan/Desktop/csharp/Chapter02/Exercise02/obj/Debug/netcoreapp3.1/Exercise02.csprojAssemblyReference.cache
+/Users/ryan/Desktop/csharp/Chapter02/Exercise02/obj/Debug/netcoreapp3.1/Exercise02.AssemblyInfoInputs.cache
+/Users/ryan/Desktop/csharp/Chapter02/Exercise02/obj/Debug/netcoreapp3.1/Exercise02.AssemblyInfo.cs
+/Users/ryan/Desktop/csharp/Chapter02/Exercise02/obj/Debug/netcoreapp3.1/Exercise02.csproj.CoreCompileInputs.cache
+/Users/ryan/Desktop/csharp/Chapter02/Exercise02/obj/Debug/netcoreapp3.1/Exercise02.dll
+/Users/ryan/Desktop/csharp/Chapter02/Exercise02/obj/Debug/netcoreapp3.1/Exercise02.pdb
+/Users/ryan/Desktop/csharp/Chapter02/Exercise02/obj/Debug/netcoreapp3.1/Exercise02.genruntimeconfig.cache
