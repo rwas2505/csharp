@@ -17,9 +17,19 @@ namespace Operators
             int d = ++c; //increment c before assigning it
             WriteLine($"c is {c}, d is {d}");
 
-            int e = 3;
-            e++;
-            WriteLine($"e is {e}");
+            int z = 3;
+            z++;
+            WriteLine($"z is {z}");
+
+            int e = 11;
+            int f = 3;
+            WriteLine($"e is {e}, f is {f}");
+            WriteLine($"e + f = {e + f}");
+            WriteLine($"e - f = {e - f}");
+            WriteLine($"e * f = {e * f}");
+            WriteLine($"e / f = {e / f}");
+            WriteLine($"e % f = {e % f}");
+            
         }
     }
 }
