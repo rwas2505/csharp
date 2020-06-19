@@ -5,6 +5,12 @@
 		},
 		{
 			"path": "BooleanOperators"
+		},
+		{
+			"path": "BitwiseAndShiftOperators"
+		},
+		{
+			"path": "SelectionStatements"
 		}
 	]
 }

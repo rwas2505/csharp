@@ -1,0 +1,12 @@
+/Users/ryan/Desktop/csharp/Chapter03/BitwiseAndShiftOperators/obj/Debug/netcoreapp3.1/BitwiseAndShiftOperators.csprojAssemblyReference.cache
+/Users/ryan/Desktop/csharp/Chapter03/BitwiseAndShiftOperators/obj/Debug/netcoreapp3.1/BitwiseAndShiftOperators.AssemblyInfoInputs.cache
+/Users/ryan/Desktop/csharp/Chapter03/BitwiseAndShiftOperators/obj/Debug/netcoreapp3.1/BitwiseAndShiftOperators.AssemblyInfo.cs
+/Users/ryan/Desktop/csharp/Chapter03/BitwiseAndShiftOperators/obj/Debug/netcoreapp3.1/BitwiseAndShiftOperators.csproj.CoreCompileInputs.cache
+/Users/ryan/Desktop/csharp/Chapter03/BitwiseAndShiftOperators/bin/Debug/netcoreapp3.1/BitwiseAndShiftOperators.deps.json
+/Users/ryan/Desktop/csharp/Chapter03/BitwiseAndShiftOperators/bin/Debug/netcoreapp3.1/BitwiseAndShiftOperators.runtimeconfig.json
+/Users/ryan/Desktop/csharp/Chapter03/BitwiseAndShiftOperators/bin/Debug/netcoreapp3.1/BitwiseAndShiftOperators.runtimeconfig.dev.json
+/Users/ryan/Desktop/csharp/Chapter03/BitwiseAndShiftOperators/bin/Debug/netcoreapp3.1/BitwiseAndShiftOperators.dll
+/Users/ryan/Desktop/csharp/Chapter03/BitwiseAndShiftOperators/bin/Debug/netcoreapp3.1/BitwiseAndShiftOperators.pdb
+/Users/ryan/Desktop/csharp/Chapter03/BitwiseAndShiftOperators/obj/Debug/netcoreapp3.1/BitwiseAndShiftOperators.dll
+/Users/ryan/Desktop/csharp/Chapter03/BitwiseAndShiftOperators/obj/Debug/netcoreapp3.1/BitwiseAndShiftOperators.pdb
+/Users/ryan/Desktop/csharp/Chapter03/BitwiseAndShiftOperators/obj/Debug/netcoreapp3.1/BitwiseAndShiftOperators.genruntimeconfig.cache
