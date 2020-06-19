@@ -24,6 +24,15 @@ namespace BooleanOperators
             WriteLine($"a   |{a ^ a, -5} | {a ^ b, -5} ");
             WriteLine($"b   |{b ^ a, -5} | {b ^ b, -5} ");
             WriteLine();
+
+            WriteLine($"a && DoStuff() = {a && DoStuff()}");
+            WriteLine($"b && DoStuff() = {b && DoStuff()}"); //DoStuff function was not executed!
+        }
+
+        private static bool DoStuff()
+        {
+            WriteLine("I am doing some stuff.");
+            return true;
         }
     }
 }
