@@ -1,0 +1,12 @@
+/Users/ryan/Desktop/csharp/Chapter03/IterationStatements/bin/Debug/netcoreapp3.1/IterationStatements.deps.json
+/Users/ryan/Desktop/csharp/Chapter03/IterationStatements/bin/Debug/netcoreapp3.1/IterationStatements.runtimeconfig.json
+/Users/ryan/Desktop/csharp/Chapter03/IterationStatements/bin/Debug/netcoreapp3.1/IterationStatements.runtimeconfig.dev.json
+/Users/ryan/Desktop/csharp/Chapter03/IterationStatements/bin/Debug/netcoreapp3.1/IterationStatements.dll
+/Users/ryan/Desktop/csharp/Chapter03/IterationStatements/bin/Debug/netcoreapp3.1/IterationStatements.pdb
+/Users/ryan/Desktop/csharp/Chapter03/IterationStatements/obj/Debug/netcoreapp3.1/IterationStatements.csprojAssemblyReference.cache
+/Users/ryan/Desktop/csharp/Chapter03/IterationStatements/obj/Debug/netcoreapp3.1/IterationStatements.AssemblyInfoInputs.cache
+/Users/ryan/Desktop/csharp/Chapter03/IterationStatements/obj/Debug/netcoreapp3.1/IterationStatements.AssemblyInfo.cs
+/Users/ryan/Desktop/csharp/Chapter03/IterationStatements/obj/Debug/netcoreapp3.1/IterationStatements.csproj.CoreCompileInputs.cache
+/Users/ryan/Desktop/csharp/Chapter03/IterationStatements/obj/Debug/netcoreapp3.1/IterationStatements.dll
+/Users/ryan/Desktop/csharp/Chapter03/IterationStatements/obj/Debug/netcoreapp3.1/IterationStatements.pdb
+/Users/ryan/Desktop/csharp/Chapter03/IterationStatements/obj/Debug/netcoreapp3.1/IterationStatements.genruntimeconfig.cache
