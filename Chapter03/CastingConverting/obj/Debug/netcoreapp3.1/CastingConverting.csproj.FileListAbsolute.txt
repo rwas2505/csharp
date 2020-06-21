@@ -1,0 +1,12 @@
+/Users/ryan/Desktop/csharp/Chapter03/CastingConverting/bin/Debug/netcoreapp3.1/CastingConverting.deps.json
+/Users/ryan/Desktop/csharp/Chapter03/CastingConverting/bin/Debug/netcoreapp3.1/CastingConverting.runtimeconfig.json
+/Users/ryan/Desktop/csharp/Chapter03/CastingConverting/bin/Debug/netcoreapp3.1/CastingConverting.runtimeconfig.dev.json
+/Users/ryan/Desktop/csharp/Chapter03/CastingConverting/bin/Debug/netcoreapp3.1/CastingConverting.dll
+/Users/ryan/Desktop/csharp/Chapter03/CastingConverting/bin/Debug/netcoreapp3.1/CastingConverting.pdb
+/Users/ryan/Desktop/csharp/Chapter03/CastingConverting/obj/Debug/netcoreapp3.1/CastingConverting.csprojAssemblyReference.cache
+/Users/ryan/Desktop/csharp/Chapter03/CastingConverting/obj/Debug/netcoreapp3.1/CastingConverting.AssemblyInfoInputs.cache
+/Users/ryan/Desktop/csharp/Chapter03/CastingConverting/obj/Debug/netcoreapp3.1/CastingConverting.AssemblyInfo.cs
+/Users/ryan/Desktop/csharp/Chapter03/CastingConverting/obj/Debug/netcoreapp3.1/CastingConverting.csproj.CoreCompileInputs.cache
+/Users/ryan/Desktop/csharp/Chapter03/CastingConverting/obj/Debug/netcoreapp3.1/CastingConverting.dll
+/Users/ryan/Desktop/csharp/Chapter03/CastingConverting/obj/Debug/netcoreapp3.1/CastingConverting.pdb
+/Users/ryan/Desktop/csharp/Chapter03/CastingConverting/obj/Debug/netcoreapp3.1/CastingConverting.genruntimeconfig.cache
