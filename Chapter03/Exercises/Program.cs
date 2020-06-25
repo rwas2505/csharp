@@ -10,7 +10,7 @@ namespace Exercises
             // int number = 8;
             // double number2 = 8.2;
             // int maxInt = int.MaxValue;
-            int y = 5;
+            // int y = 5;
 
             // WriteLine($"Int number is: {number}");
             // WriteLine($"Int number divided by 2 is: {number / 2}");
@@ -23,11 +23,12 @@ namespace Exercises
             // WriteLine($"MaxInt  is: {maxInt}");
             // WriteLine($"MaxInt + 1  is: {maxInt + 1}");
 
-            WriteLine($"y before increment is {y}");
-            int x = ++y;
-            WriteLine($"y is {y}");
+            // WriteLine($"y before increment is {y}");
+            // int x = y++;
+            // int x = ++y;
+            // WriteLine($"y is {y}");
             // WriteLine($"x = y++; x is {x}");
-            WriteLine($"x = ++y; x is {x}");
+            // WriteLine($"x = ++y; x is {x}");
 
 
         }
