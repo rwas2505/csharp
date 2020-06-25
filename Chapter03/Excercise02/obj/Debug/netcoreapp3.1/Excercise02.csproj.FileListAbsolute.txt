@@ -1,0 +1,13 @@
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter03\Excercise02\bin\Debug\netcoreapp3.1\Excercise02.exe
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter03\Excercise02\bin\Debug\netcoreapp3.1\Excercise02.deps.json
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter03\Excercise02\bin\Debug\netcoreapp3.1\Excercise02.runtimeconfig.json
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter03\Excercise02\bin\Debug\netcoreapp3.1\Excercise02.runtimeconfig.dev.json
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter03\Excercise02\bin\Debug\netcoreapp3.1\Excercise02.dll
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter03\Excercise02\bin\Debug\netcoreapp3.1\Excercise02.pdb
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter03\Excercise02\obj\Debug\netcoreapp3.1\Excercise02.csprojAssemblyReference.cache
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter03\Excercise02\obj\Debug\netcoreapp3.1\Excercise02.AssemblyInfoInputs.cache
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter03\Excercise02\obj\Debug\netcoreapp3.1\Excercise02.AssemblyInfo.cs
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter03\Excercise02\obj\Debug\netcoreapp3.1\Excercise02.csproj.CoreCompileInputs.cache
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter03\Excercise02\obj\Debug\netcoreapp3.1\Excercise02.dll
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter03\Excercise02\obj\Debug\netcoreapp3.1\Excercise02.pdb
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter03\Excercise02\obj\Debug\netcoreapp3.1\Excercise02.genruntimeconfig.cache
