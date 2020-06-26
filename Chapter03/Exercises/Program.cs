@@ -31,6 +31,33 @@ namespace Exercises
             // WriteLine($"x = ++y; x is {x}");
 
 
+            //Exercise 3.5
+        
+            //1.
+            // int x = 3;
+            // int y = 2 + ++x;
+
+            // WriteLine($"x is {x} and y is {y}");
+            //guess: x is 4, y is 6 (CORRECT)
+
+            //2.
+            // int x = 3 << 2;
+            // int y = 10 >> 1;
+
+            //shift operators shift bits
+            // WriteLine($"x is {x} and y is {y}");
+            //answer (no clue how to guess): x is 12 and y is 5
+
+            //3. 
+            int x = 10 & 8;
+            int y = 10 | 7;
+
+            //guess x is true and y is true
+            WriteLine($"x is {x} and y is {y}");
+            //answer: x is 8 and y is 15. When I tried to assign x and y as bool received error, cannot implicitly convert type 'int' to 'bool'. The answer has to do with bitwise logical & and |
+
+
+
         }
     }
 }
