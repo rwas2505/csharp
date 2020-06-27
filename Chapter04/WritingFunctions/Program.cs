@@ -5,44 +5,66 @@ namespace WritingFunctions
 {
     class Program
     {
+        //with switch expressions showing syntax found on SO for multiple cases on a given output
         static decimal CalculateTax(decimal amount, string twoLetterRegionCode)
         {
             decimal rate = 0.0M;
-            switch (twoLetterRegionCode)
+            rate = (twoLetterRegionCode) switch 
             {
-                case "CH": //Switzerland
-                    rate = 0.08M;
-                    break;
-                case "DK": //Denmark
-                case "NO": //Norway
-                    rate = 0.25M;
-                    break;
-                case "GB": //United Kingdom
-                case "FR": //France
-                    rate = 0.2M;
-                    break;
-                case "HU": //Hungary
-                    rate = 0.27M;
-                    break;
-                case "OR": //Oregon
-                case "AK": //Alaska
-                case "MT": //Montana
-                    rate = 0.0M; break;
-                case "ND": //North Dakota
-                case "WI": //Wisconsin
-                case "ME": //Maine
-                case "VA": //Virgina
-                    rate = 0.05M; 
-                    break;
-                case "CA": //California
-                    rate = 0.0825M;
-                    break;
-                default: //most US states
-                    rate = 0.06M;
-                    break;
-            }
+                "CH" => 0.08M, //Switzerland
+                var x when 
+                    x == "DK" || //Denmark
+                    x == "NO" => 0.25M, //Norway
+                var x when
+                    x == "GB" ||
+                    x == "UK" ||
+                    x == "FR" => 0.2M,
+                "HU" => 0.27M, //Hungary
+                 _ => 0.06M //default
+            };
             return amount * rate;
         }
+
+
+        //with switch statements (full code example from book)
+        // static decimal CalculateTax(decimal amount, string twoLetterRegionCode)
+        // {
+        //     decimal rate = 0.0M;
+        //     switch (twoLetterRegionCode)
+        //     {
+        //         case "CH": //Switzerland
+        //             rate = 0.08M;
+        //             break;
+        //         case "DK": //Denmark
+        //         case "NO": //Norway
+        //             rate = 0.25M;
+        //             break;
+        //         case "GB": //United Kingdom
+        //         case "FR": //France
+        //             rate = 0.2M;
+        //             break;
+        //         case "HU": //Hungary
+        //             rate = 0.27M;
+        //             break;
+        //         case "OR": //Oregon
+        //         case "AK": //Alaska
+        //         case "MT": //Montana
+        //             rate = 0.0M; break;
+        //         case "ND": //North Dakota
+        //         case "WI": //Wisconsin
+        //         case "ME": //Maine
+        //         case "VA": //Virgina
+        //             rate = 0.05M; 
+        //             break;
+        //         case "CA": //California
+        //             rate = 0.0825M;
+        //             break;
+        //         default: //most US states
+        //             rate = 0.06M;
+        //             break;
+        //     }
+        //     return amount * rate;
+        // }
 
         static void RunCalculateTax()
         {
@@ -50,7 +72,7 @@ namespace WritingFunctions
             string amountInText = ReadLine();
 
             Write("Enter a two-letter region code: ");
-            string region = ReadLine();
+            string region = ReadLine().ToUpper();
 
             if (decimal.TryParse(amountInText, out decimal amount))
             {
