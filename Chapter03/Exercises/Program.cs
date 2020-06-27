@@ -54,7 +54,7 @@ namespace Exercises
 
             //guess x is true and y is true
             WriteLine($"x is {x} and y is {y}");
-            //answer: x is 8 and y is 15. When I tried to assign x and y as bool received error, cannot implicitly convert type 'int' to 'bool'. The answer has to do with bitwise logical & and |
+            //answer: x is 8 and y is 15. When I tried to assign x and y as bool received error, cannot implicitly convert type 'int' to 'bool'. The answer has to do with bitwise logical & and |`
 
 
 
