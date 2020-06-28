@@ -11,3 +11,13 @@ C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Instrumenting\obj\Release\netcore
 C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Instrumenting\obj\Release\netcoreapp3.1\Instrumenting.dll
 C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Instrumenting\obj\Release\netcoreapp3.1\Instrumenting.pdb
 C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Instrumenting\obj\Release\netcoreapp3.1\Instrumenting.genruntimeconfig.cache
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Instrumenting\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Instrumenting\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Instrumenting\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Instrumenting\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Instrumenting\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Instrumenting\bin\Release\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Instrumenting\bin\Release\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Instrumenting\bin\Release\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Instrumenting\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Instrumenting\obj\Release\netcoreapp3.1\Instrumenting.csproj.CopyComplete

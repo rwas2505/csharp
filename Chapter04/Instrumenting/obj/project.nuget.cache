@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "sJTxU4YOX1BsEqbaDTaEQ4VXnA0p0L8NUHg4EcWrwhJObtTn/vYL8jHU3FukYTP4cUZoY4udL0kDT8Lg6ZZ+oQ==",
+  "dgSpecHash": "iLxPVFdlMFR7OQQSYKzXfkF9UK9euKMmWL894JrW22i16vH448HKxdqwIqLq4MWFnwr8Fc3T4Krwgb50oT+NGg==",
   "success": true,
   "projectFilePath": "C:\\Users\\rwaszak\\Desktop\\Code\\csharp\\Chapter04\\Instrumenting\\Instrumenting.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\rwaszak\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.5\\microsoft.extensions.configuration.3.1.5.nupkg.sha512",
+    "C:\\Users\\rwaszak\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.5\\microsoft.extensions.configuration.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\rwaszak\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.5\\microsoft.extensions.configuration.binder.3.1.5.nupkg.sha512",
+    "C:\\Users\\rwaszak\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\3.1.5\\microsoft.extensions.configuration.fileextensions.3.1.5.nupkg.sha512",
+    "C:\\Users\\rwaszak\\.nuget\\packages\\microsoft.extensions.configuration.json\\3.1.5\\microsoft.extensions.configuration.json.3.1.5.nupkg.sha512",
+    "C:\\Users\\rwaszak\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.5\\microsoft.extensions.fileproviders.abstractions.3.1.5.nupkg.sha512",
+    "C:\\Users\\rwaszak\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.5\\microsoft.extensions.fileproviders.physical.3.1.5.nupkg.sha512",
+    "C:\\Users\\rwaszak\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.5\\microsoft.extensions.filesystemglobbing.3.1.5.nupkg.sha512",
+    "C:\\Users\\rwaszak\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.5\\microsoft.extensions.primitives.3.1.5.nupkg.sha512"
+  ],
   "logs": []
 }
