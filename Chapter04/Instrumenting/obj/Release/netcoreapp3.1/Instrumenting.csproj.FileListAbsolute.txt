@@ -1,0 +1,13 @@
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Instrumenting\bin\Release\netcoreapp3.1\Instrumenting.exe
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Instrumenting\bin\Release\netcoreapp3.1\Instrumenting.deps.json
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Instrumenting\bin\Release\netcoreapp3.1\Instrumenting.runtimeconfig.json
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Instrumenting\bin\Release\netcoreapp3.1\Instrumenting.runtimeconfig.dev.json
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Instrumenting\bin\Release\netcoreapp3.1\Instrumenting.dll
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Instrumenting\bin\Release\netcoreapp3.1\Instrumenting.pdb
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Instrumenting\obj\Release\netcoreapp3.1\Instrumenting.csprojAssemblyReference.cache
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Instrumenting\obj\Release\netcoreapp3.1\Instrumenting.AssemblyInfoInputs.cache
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Instrumenting\obj\Release\netcoreapp3.1\Instrumenting.AssemblyInfo.cs
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Instrumenting\obj\Release\netcoreapp3.1\Instrumenting.csproj.CoreCompileInputs.cache
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Instrumenting\obj\Release\netcoreapp3.1\Instrumenting.dll
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Instrumenting\obj\Release\netcoreapp3.1\Instrumenting.pdb
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Instrumenting\obj\Release\netcoreapp3.1\Instrumenting.genruntimeconfig.cache

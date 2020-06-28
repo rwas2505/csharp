@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "Dumping"
+		},
+		{
+			"path": "Instrumenting"
 		}
 	],
 	"settings": {}
