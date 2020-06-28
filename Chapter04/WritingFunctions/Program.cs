@@ -6,6 +6,11 @@ namespace WritingFunctions
     class Program
     {
 
+        /// <summary>
+        /// Pass a 32 bit integer and it will return its factorial
+        /// </summary>
+        /// <param name="number">Number is a 32 bit integer</param>
+        /// <returns>Factorial of input integer</returns>
         static int Factorial (int number)
         {
             if (number < 1)
@@ -22,6 +27,9 @@ namespace WritingFunctions
             }
         }
 
+        /// <summary>
+        /// Prompts user to enter a number. If number is a valid integer, Factorial is calculated. Otherwise a message is displayed stating the user did not enter a valid number.
+        /// </summary>
         static void RunFactorial()
         {
             bool isNumber;
@@ -45,6 +53,12 @@ namespace WritingFunctions
 
 
         //with switch expressions showing syntax found on SO for multiple cases on a given output
+        /// <summary>
+        /// Pass a decimal purchase amount and a string two letter region code and return the amount of tax required for the amount in that country.
+        /// </summary>
+        /// <param name="amount">Decimal amount representing an items purchase price before tax.</param>
+        /// <param name="twoLetterRegionCode">Two letter string representing the region's code.</param>
+        /// <returns>Returns a decimal value that represents the amount of tax required for the amount in that region.</returns>
         static decimal CalculateTax(decimal amount, string twoLetterRegionCode)
         {
             decimal rate = 0.0M;
@@ -105,6 +119,7 @@ namespace WritingFunctions
         //     return amount * rate;
         // }
 
+        
         static void RunCalculateTax()
         {
             Write("Enter an amount: ");
@@ -123,6 +138,11 @@ namespace WritingFunctions
                 WriteLine("You did not enter a valid amount!");
             }
         }
+
+        /// <summary>
+        /// Receives a byte-number and prints the numbers times table to the console from 1 to 12.
+        /// </summary>
+        /// <param name="number">Number is of type byte</param>
         static void TimesTable (byte number)
         {
             WriteLine($"This is the {number} times table:");
@@ -155,6 +175,11 @@ namespace WritingFunctions
             while (isNumber);
         }
 
+        /// <summary>
+        /// Pass a 32-bit integer and it will be converted into its ordinal equivalent.
+        /// </summary>
+        /// <param name="number">Number is a cardinal value e.g.static 1,2,3, and so on.</param>
+        /// <returns>Number as an ordinal value e.g.static 1st, 2nd, 3rd, and so on.</returns>
         static string CardinalToOrdinal(int number)
         {
             switch (number)
