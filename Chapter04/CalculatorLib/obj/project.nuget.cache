@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9QcxwB90gSReODVKUP4115/Z5VUN6fBue4wmbJNhY+nfX0NDpV/rAYjPXaBO1BqWtfOGcF7OmN5WXnJN/hqNEw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rwaszak\\Desktop\\Code\\csharp\\Chapter04\\CalculatorLib\\CalculatorLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rwaszak\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\rwaszak\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
