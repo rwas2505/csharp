@@ -34,7 +34,7 @@
     * **A:** *p.137-138*
     * **Arrange:** This part will declare and instantiate variables for input and output
     * **Act:** This part will execute the unit that you are testing. In our case, this means calling the method that we want to test (in reference to book example)
-    * **Assert:**This part will make one or more assertions about the output. An assertion is a belief that if not true indicates a failed test. For example, when adding 2 and 2 we would expect the result would be 4.
+    * **Assert:** This part will make one or more assertions about the output. An assertion is a belief that if not true indicates a failed test. For example, when adding 2 and 2 we would expect the result would be 4.
 
 8. When writing a unit test using *xUnit*, what attribute must you decorate the test methods with?
     * **A:** The Fact Attribute 
@@ -46,3 +46,9 @@
 10. What is TDD?
     * **A:** Creating unit tests before writing code. 
     * *More info:* (https://en.wikipedia.org/wiki/Test-driven_development)
+
+###############################################################################################################
+
+# Exercise 4.2 - Practice writing functions with debugging and unit testing
+
+###############################################################################################################

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xbLHO6ksAnSNubw8vM2SWoUIwxg+UuIwJNXaL4YngzJGt4O9OTDTZPB6Ir08ZRum8dr2Xo11lKIP8uC6Rk9N7g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rwaszak\\Desktop\\Code\\csharp\\Chapter04\\PrimeFactors\\PrimeFactors.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rwaszak\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\rwaszak\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,9 @@
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\PrimeFactors\bin\Debug\netstandard2.0\PrimeFactors.deps.json
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\PrimeFactors\bin\Debug\netstandard2.0\PrimeFactors.dll
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\PrimeFactors\bin\Debug\netstandard2.0\PrimeFactors.pdb
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\PrimeFactors\obj\Debug\netstandard2.0\PrimeFactors.csprojAssemblyReference.cache
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\PrimeFactors\obj\Debug\netstandard2.0\PrimeFactors.AssemblyInfoInputs.cache
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\PrimeFactors\obj\Debug\netstandard2.0\PrimeFactors.AssemblyInfo.cs
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\PrimeFactors\obj\Debug\netstandard2.0\PrimeFactors.csproj.CoreCompileInputs.cache
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\PrimeFactors\obj\Debug\netstandard2.0\PrimeFactors.dll
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\PrimeFactors\obj\Debug\netstandard2.0\PrimeFactors.pdb
