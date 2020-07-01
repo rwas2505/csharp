@@ -219,12 +219,20 @@ namespace WritingFunctions
                 WriteLine();
             }
         }
+
+        static void WritePrimes()
+        {
+            WriteLine("Primeage");
+        }
+
+        
         static void Main(string[] args)
         {
             // RunTimesTable();
             // RunCalculateTax();
             // RunCardinalToOridnal();
-            RunFactorial();
+            // RunFactorial();
+            WritePrimes();
         }
     }
 }

@@ -1,14 +1,13 @@
 ﻿using System;
-using static System.Console;
 
-namespace PrimeFactors
+namespace Packt
 {
     public class Generator
     {
-        public string PrimeFactors(int input)
+        public string Primer( int a, int b)
         {
-            WriteLine($"{input}");
-            return input.ToString();
+            int intSum = a + b;
+            return intSum.ToString();
         }
     }
 }
