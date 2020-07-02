@@ -33,7 +33,7 @@ namespace EratosthenesV2._0
         {
             Eratosthenes eratosthenes = new Eratosthenes();
  
-            IEnumerable<int> factors = GetPrimeFactors(120, eratosthenes);
+            IEnumerable<int> factors = GetPrimeFactors(50, eratosthenes);
 
             string itesting = "";
             

@@ -33,11 +33,11 @@ namespace EratosthenesV2._0
         }
 
 
-        public string ShowFactors()
+        public string ShowFactors(int inputNumber)
         {
             Eratosthenes eratosthenes = new Eratosthenes();
  
-            IEnumerable<int> factors = GetPrimeFactors(120, eratosthenes);
+            IEnumerable<int> factors = GetPrimeFactors(inputNumber, eratosthenes);
 
             string finalFactors= "";
             
