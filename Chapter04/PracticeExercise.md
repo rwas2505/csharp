@@ -51,6 +51,16 @@
 
 # Exercise 4.2 - Practice writing functions with debugging and unit testing
 
+* *see PrimeFactors and PrimeFactorsUnitTests*
+
 * (http://www.blackwasp.co.uk/PrimeFactors.aspx)
 
 ###############################################################################################################
+
+# Exercise 4.3 - Explore Topics
+
+* **Debugging in VS Code** *https://code.visualstudio.com/docs/editor/debugging*
+* **Instructions for setting up the .NET Core Debugger** *https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger.md*
+* **System.Diagnostics Namespace** *https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics?view=dotnet-plat-ext-3.1*
+* **Unit testing in .NET Core and .NET Standard** *https://docs.microsoft.com/en-us/dotnet/core/testing/?pivots=mstest*
+* **xUnit.net** *https://xunit.github.io/*
