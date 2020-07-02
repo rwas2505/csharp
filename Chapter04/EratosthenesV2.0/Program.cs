@@ -24,7 +24,7 @@ namespace EratosthenesV2._0
                     break;
                 }
             }
-        
+
             return factors;
         }
 
@@ -34,11 +34,16 @@ namespace EratosthenesV2._0
             Eratosthenes eratosthenes = new Eratosthenes();
  
             IEnumerable<int> factors = GetPrimeFactors(120, eratosthenes);
+
+            string itesting = "";
             
             foreach (int i in factors)
             {
-                Console.Write("{0} ", i);   // Outputs "2 2 2 3 5"
+                //Console.Write("{0} ", i);   // Outputs "2 2 2 3 5"
+                itesting += $"{i.ToString()} ";
             }
+
+            WriteLine(itesting);
             
         }
 
