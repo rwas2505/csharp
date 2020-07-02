@@ -1,0 +1,13 @@
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Eratosthenes\bin\Debug\netcoreapp3.1\Eratosthenes.exe
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Eratosthenes\bin\Debug\netcoreapp3.1\Eratosthenes.deps.json
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Eratosthenes\bin\Debug\netcoreapp3.1\Eratosthenes.runtimeconfig.json
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Eratosthenes\bin\Debug\netcoreapp3.1\Eratosthenes.runtimeconfig.dev.json
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Eratosthenes\bin\Debug\netcoreapp3.1\Eratosthenes.dll
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Eratosthenes\bin\Debug\netcoreapp3.1\Eratosthenes.pdb
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Eratosthenes\obj\Debug\netcoreapp3.1\Eratosthenes.csprojAssemblyReference.cache
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Eratosthenes\obj\Debug\netcoreapp3.1\Eratosthenes.AssemblyInfoInputs.cache
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Eratosthenes\obj\Debug\netcoreapp3.1\Eratosthenes.AssemblyInfo.cs
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Eratosthenes\obj\Debug\netcoreapp3.1\Eratosthenes.csproj.CoreCompileInputs.cache
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Eratosthenes\obj\Debug\netcoreapp3.1\Eratosthenes.dll
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Eratosthenes\obj\Debug\netcoreapp3.1\Eratosthenes.pdb
+C:\Users\rwaszak\Desktop\Code\csharp\Chapter04\Eratosthenes\obj\Debug\netcoreapp3.1\Eratosthenes.genruntimeconfig.cache

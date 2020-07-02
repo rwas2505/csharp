@@ -17,6 +17,9 @@
 		},
 		{
 			"path": "CalculatorLibUnitTests"
+		},
+		{
+			"path": "Eratosthenes"
 		}
 	],
 	"settings": {}
