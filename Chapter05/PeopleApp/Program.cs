@@ -8,6 +8,7 @@ namespace PeopleApp
     {
         static void Main(string[] args)
         {
+            //bob
             var bob = new Person();
 
             bob.Name = "Bob Smith";
@@ -32,6 +33,7 @@ namespace PeopleApp
                 WriteLine($"  {bob.Children[child].Name}");
             }
 
+            //alice
             var alice = new Person()
             {
                 Name = "Alice Jones",
