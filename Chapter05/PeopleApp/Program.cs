@@ -79,6 +79,18 @@ namespace PeopleApp
             //call the two methods from the Person class
             // bob.WriteToConsole();
             // WriteLine(bob.GetOrigin());
+
+            //create two tuples made of a string and int value 
+            //In C# 7.1 and later, the second thing can infer the names Name and Count
+            var thing1 = ("Neville", 4);
+            // WriteLine($"{thing1.Item1} has {thing1.Item2} children.");
+
+            var thing2 = (bob.Name, bob.Children.Count);
+            // WriteLine($"{thing2.Name} has {thing2.Count} children");
+            
+            //deconstruct return values into two separate variables from tuple
+            (string fruitName, int fruitNumber) = bob.GetFruit();
+            WriteLine($"Deconstructed: {fruitName}, {fruitNumber}");
         }
     }
 }

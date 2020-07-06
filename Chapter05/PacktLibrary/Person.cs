@@ -54,7 +54,7 @@ namespace Packt.Shared
         //method that returns a tuple with named fields 
         public (string Name, int Number) GetNamedFruit()
         {
-            return (Name: "Apples", Number: 5);
+            return (Name: "Apples", Number: 5); 
         }
     }
 }
