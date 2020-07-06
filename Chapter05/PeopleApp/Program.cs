@@ -20,8 +20,16 @@ namespace PeopleApp
             bob.BucketList = WondersOfTheAncientWorld.HangingGardensOfBabylon | WondersOfTheAncientWorld.MausoleumAtHalicarnassus;
             //bob.BucketList = (WondersOfTheAncientWorld)18; is the same as above but not as clear
 
-            // bob.Children.Add(new Person { Name = "Alfred" });
-            // bob.Children.Add(new Person { Name = "Zoe" });
+            bob.Children.Add(new Person { Name = "Alfred" });
+            bob.Children.Add(new Person { Name = "Zoe" });
+
+            //call GetFruit method and then output the tuple's fields
+            (string,int) fruit = bob.GetFruit();
+            // WriteLine($"{fruit.Item1}, {fruit.Item2} there are.");
+
+            //call GetNamedFruit method which is a tuple with named fields
+            var fruitNamed = bob.GetNamedFruit();
+            WriteLine($"There are {fruitNamed.Number} {fruitNamed.Name}.");
 
             // WriteLine($"{bob.Name} was born on {bob.DateOfBirth: dddd, d MMMM yyyy}");
             // WriteLine($"{bob.Name}'s favorite wonder is {bob.FavoriteAncientWonder}. It's integer is {(int)bob.FavoriteAncientWonder}.");
@@ -69,8 +77,8 @@ namespace PeopleApp
             // WriteLine($"{gunny.Name} of {gunny.HomePlanet} was creatd at {gunny.Instantiated:hh:mm:ss} on a {gunny.Instantiated:dddd}.");
 
             //call the two methods from the Person class
-            bob.WriteToConsole();
-            WriteLine(bob.GetOrigin());
+            // bob.WriteToConsole();
+            // WriteLine(bob.GetOrigin());
         }
     }
 }

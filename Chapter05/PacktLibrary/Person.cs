@@ -45,5 +45,16 @@ namespace Packt.Shared
         {
             return $"{Name} was born on {HomePlanet}.";
         }
+
+        public (string, int) GetFruit()
+        {
+            return("Apples", 5); //method returns a string and int tuple
+        }
+
+        //method that returns a tuple with named fields 
+        public (string Name, int Number) GetNamedFruit()
+        {
+            return (Name: "Apples", Number: 5);
+        }
     }
 }
