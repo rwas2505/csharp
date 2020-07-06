@@ -29,7 +29,7 @@ namespace PeopleApp
 
             //call GetNamedFruit method which is a tuple with named fields
             var fruitNamed = bob.GetNamedFruit();
-            WriteLine($"There are {fruitNamed.Number} {fruitNamed.Name}.");
+            // WriteLine($"There are {fruitNamed.Number} {fruitNamed.Name}.");
 
             // WriteLine($"{bob.Name} was born on {bob.DateOfBirth: dddd, d MMMM yyyy}");
             // WriteLine($"{bob.Name}'s favorite wonder is {bob.FavoriteAncientWonder}. It's integer is {(int)bob.FavoriteAncientWonder}.");
@@ -82,15 +82,47 @@ namespace PeopleApp
 
             //create two tuples made of a string and int value 
             //In C# 7.1 and later, the second thing can infer the names Name and Count
-            var thing1 = ("Neville", 4);
+            // var thing1 = ("Neville", 4);
             // WriteLine($"{thing1.Item1} has {thing1.Item2} children.");
 
-            var thing2 = (bob.Name, bob.Children.Count);
+            // var thing2 = (bob.Name, bob.Children.Count);
             // WriteLine($"{thing2.Name} has {thing2.Count} children");
             
             //deconstruct return values into two separate variables from tuple
             (string fruitName, int fruitNumber) = bob.GetFruit();
-            WriteLine($"Deconstructed: {fruitName}, {fruitNumber}");
+            // WriteLine($"Deconstructed: {fruitName}, {fruitNumber}");
+
+            //call two methods from Person class and write return values to console
+            // WriteLine(bob.SayHello());
+            // WriteLine(bob.SayHello("Emily"));
+
+            //call optional parameters method from Person class
+            // WriteLine(bob.OptionalParameters());
+            //pass values for command and number parameters
+            // WriteLine(bob.OptionalParameters("Jump!", 98.5));
+            //using named parameters so the order can be swapped
+            // WriteLine(bob.OptionalParameters(number: 52.7, command: "Hide!"));
+            //using positional order for the command param, skipping the number param, and using the named active param 
+            // WriteLine(bob.OptionalParameters("Poke!", active: false));
+
+            //pass variables into PassingParameters method
+            int a = 10;
+            int b = 20;
+            int c = 30;
+
+            WriteLine($"Before: a = {a}, b = {b}, c = {c}");
+            bob.PassingParameters(a, ref b, out c);
+            WriteLine($"After: a = {a}, b = {b}, c = {c}");
+
+            //simplify the code that uses the out variable in C# 7.0 and later by declaring inline
+            int d = 10;
+            int e = 20;
+            WriteLine($"Before: d = {d}, e = {e}, f doesn't exist yet!");
+            //simplified C# 7.0 syntax for the out parameter 
+            bob.PassingParameters(d, ref e, out int f);
+            WriteLine($"After: d = {d}, e = {e}, f = {f}");
+
+
         }
     }
 }

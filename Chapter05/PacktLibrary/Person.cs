@@ -56,5 +56,35 @@ namespace Packt.Shared
         {
             return (Name: "Apples", Number: 5); 
         }
+
+        //method without parameter
+        public string SayHello()
+        {
+            return $"{Name} says 'Hello!'";
+        }
+
+        //method with 1 parameter
+        public string SayHello(string name)
+        {
+            return $"{Name} says 'Hello {name}!'";
+        }
+
+        //method with optional paramaters
+        public string OptionalParameters( string command = "Run!", double number = 0.0, bool active = true)
+        {
+            return $"command is {command}, number is {number}, active is {active}";
+        }
+
+        //define a method with three parameters, one in, one ref, and one out param
+        public void PassingParameters(int x, ref int y, out int z)
+        {
+            //out parameters cannot have a default AND must be initialized inside the method
+            z = 99;
+
+            //increment each parameter
+            x++;
+            y++;
+            z++;
+        }
     }
 }
