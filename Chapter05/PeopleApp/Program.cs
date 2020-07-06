@@ -106,21 +106,52 @@ namespace PeopleApp
             // WriteLine(bob.OptionalParameters("Poke!", active: false));
 
             //pass variables into PassingParameters method
-            int a = 10;
-            int b = 20;
-            int c = 30;
+            // int a = 10;
+            // int b = 20;
+            // int c = 30;
 
-            WriteLine($"Before: a = {a}, b = {b}, c = {c}");
-            bob.PassingParameters(a, ref b, out c);
-            WriteLine($"After: a = {a}, b = {b}, c = {c}");
+            // WriteLine($"Before: a = {a}, b = {b}, c = {c}");
+            // bob.PassingParameters(a, ref b, out c);
+            // WriteLine($"After: a = {a}, b = {b}, c = {c}");
 
             //simplify the code that uses the out variable in C# 7.0 and later by declaring inline
-            int d = 10;
-            int e = 20;
-            WriteLine($"Before: d = {d}, e = {e}, f doesn't exist yet!");
+            // int d = 10;
+            // int e = 20;
+            // WriteLine($"Before: d = {d}, e = {e}, f doesn't exist yet!");
             //simplified C# 7.0 syntax for the out parameter 
-            bob.PassingParameters(d, ref e, out int f);
-            WriteLine($"After: d = {d}, e = {e}, f = {f}");
+            // bob.PassingParameters(d, ref e, out int f);
+            // WriteLine($"After: d = {d}, e = {e}, f = {f}");
+
+            //DEFINING READONLY PROPERTIES (172)
+            var sam = new Person
+            {
+                Name = "Sam",
+                DateOfBirth = new DateTime(1972, 1, 27)
+            };
+            // WriteLine(sam.Origin);
+            // WriteLine(sam.Greeting);
+            // WriteLine(sam.Age);
+
+            //DEFINING SETTABLE PROPERTIES
+            //add statements to set Sam's favorite ice cream and color, and then write them to the console
+            sam.FavoriteIceCream = "Chocolate Fudge";
+
+            // WriteLine($"Sam's favorite ice-cream flavor is {sam.FavoriteIceCream}.");
+
+            sam.FavoritePrimaryColor = "Red";
+
+            // WriteLine($"Sam's favorite primary color is {sam.FavoritePrimaryColor}.");
+
+            //DEFINING INDEXERS
+            sam.Children.Add(new Person { Name = "Charlie" });
+            sam.Children.Add(new Person { Name = "Ella"});
+
+            WriteLine($"Sam's first child is {sam.Children[0].Name}");
+            WriteLine($"Sam's second child is {sam.Children[1].Name}");
+            WriteLine($"Sam's first child is {sam[0].Name}");
+            WriteLine($"Sam's second child is {sam[1].Name}");
+            //Good Practice: Only use indexers if it makes sense to use the square bracket, also known as array syntax. As you can see from the preceding example, indexers rarely add much value
+
 
 
         }
