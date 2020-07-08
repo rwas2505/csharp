@@ -68,7 +68,7 @@ The ref keyword indicates a value that is passed by reference. It is used in fou
 
     (https://stackoverflow.com/questions/295104/what-is-the-difference-between-a-field-and-a-property#:~:text=A%20field%20is%20a%20variable,in%20a%20class%20or%20struct.&text=Properties%20enable%20a%20class%20to,to%20assign%20a%20new%20value.)
 
-    A property is simply a method (or a pair of methods) that acts and looks like a field when you want to gt or set a value, thereby simplifying the syntax. (p.172)
+    A property is simply a method (or a pair of methods) that acts and looks like a field when you want to gt or set a value, thereby simplifying the syntax. *(p.172)*
 
 10. How do you make a method parameter optional?
     * **A:** You make a parameter optional by assigning a default value inside the method parameter list. Optional parameters must always come last in the list of parameters. There is one exception to optional parameters always coming last. C# has a *params* keyword that allows you to pass a comma-separated list of parameters of any length as an array. Read more here *(https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/params)*
@@ -78,15 +78,15 @@ The ref keyword indicates a value that is passed by reference. It is used in fou
 
 ### *Exercise 5.2 - Explore Topics*
 
-**Fields (C# programming guide)**https://docs.microsoft.com/en-us/dotnet/articles/csharp/programming-guide/classes-and-structs/fields
+**Fields (C# programming guide)** https://docs.microsoft.com/en-us/dotnet/articles/csharp/programming-guide/classes-and-structs/fields
 
-**Access Modifiers (C# programming guide)**https://docs.microsoft.com/en-us/dotnet/articles/csharp/language-reference/keywords/access-modifiers
+**Access Modifiers (C# programming guide)** https://docs.microsoft.com/en-us/dotnet/articles/csharp/language-reference/keywords/access-modifiers
 
-**Constructors (C# programming guide)**https://docs.microsoft.com/en-us/dotnet/articles/csharp/programming-guide/classes-and-structs/constructors
+**Constructors (C# programming guide)** https://docs.microsoft.com/en-us/dotnet/articles/csharp/programming-guide/classes-and-structs/constructors
 
-**Methods (C# programming guide)**https://docs.microsoft.com/en-us/dotnet/articles/csharp/methods
+**Methods (C# programming guide)** https://docs.microsoft.com/en-us/dotnet/articles/csharp/methods
 
-**Properties (C# programming guide)**https://docs.microsoft.com/en-us/dotnet/articles/csharp/properties
+**Properties (C# programming guide)** https://docs.microsoft.com/en-us/dotnet/articles/csharp/properties
 
 
 
