@@ -1,4 +1,6 @@
 ﻿using System;
+using Packt.Shared;
+using static System.Console;
 
 namespace PeopleApp
 {
@@ -6,7 +8,21 @@ namespace PeopleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var harry = new Person {Name = "Harry"};
+            var mary = new Person {Name = "Mary"};
+            var jill = new Person {Name = "Jill"};
+
+            //call instance method
+            var baby1 = mary.ProcreateWith(harry);
+
+            //call static method
+            var baby2 = Person.Procreate(harry, jill);
+
+            WriteLine($"{harry.Name} has {harry.Children.Count} children.");
+            WriteLine($"{mary.Name} has {mary.Children.Count} children.");
+            WriteLine($"{jill.Name} has {jill.Children.Count} children.");
+
+            WriteLine($"{harry.Name}'s first child is namedd \"{harry.Children[0].Name}\".");
         }
     }
 }
