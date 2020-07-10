@@ -21,12 +21,13 @@ namespace PeopleApp
             //call an operator
             var baby3 = harry * mary;
 
-            WriteLine($"{harry.Name} has {harry.Children.Count} children.");
-            WriteLine($"{mary.Name} has {mary.Children.Count} children.");
-            WriteLine($"{jill.Name} has {jill.Children.Count} children.");
+            // WriteLine($"{harry.Name} has {harry.Children.Count} children.");
+            // WriteLine($"{mary.Name} has {mary.Children.Count} children.");
+            // WriteLine($"{jill.Name} has {jill.Children.Count} children.");
 
-            WriteLine($"{harry.Name}'s first child is namedd \"{harry.Children[0].Name}\".");
+            // WriteLine($"{harry.Name}'s first child is namedd \"{harry.Children[0].Name}\".");
             
+            WriteLine($"5! is {Person.Factorial(5)}");
         }
     }
 }
