@@ -35,5 +35,11 @@ namespace Packt.Shared
         {
             return Procreate(this, partner); //this is a keyword that references the current instance of the class
         }
+
+        // operator to "multiply"
+        public static Person operator * (Person p1, Person p2)
+        {
+            return Person.Procreate(p1, p2);
+        }
     }
 }
