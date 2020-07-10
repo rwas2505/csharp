@@ -6,6 +6,14 @@ namespace PeopleApp
 {
     class Program
     {
+        //p.189 add a method with a matching signature that gets a reference to the Person object from the sender parameter and outputs some information about them.
+        private static void Harry_Shout(object sender, EventArgs e)
+        {
+            Person p = (Person)sender;
+            WriteLine($"{p.Name} is this angry: {p.AngerLevel}.");
+        }
+
+
         static void Main(string[] args)
         {
             var harry = new Person {Name = "Harry"};
@@ -27,7 +35,17 @@ namespace PeopleApp
 
             // WriteLine($"{harry.Name}'s first child is namedd \"{harry.Children[0].Name}\".");
             
-            WriteLine($"5! is {Person.Factorial(5)}");
+            // WriteLine($"5! is {Person.Factorial(5)}");
+
+            //p.189 add a statement to assign the method to the delegate field
+            harry.Shout = Harry_Shout;
+            //add statements to call the Poke method four times
+            harry.Poke();
+            harry.Poke();
+            harry.Poke();
+            harry.Poke();
+
+
         }
     }
 }

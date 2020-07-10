@@ -57,5 +57,26 @@ namespace Packt.Shared
                 return localNumber * localFactorial(localNumber - 1);
             }
         }
+
+        // event delegate field
+        public EventHandler Shout;
+        //data field
+        public int AngerLevel;
+        //method
+        public void Poke()
+        {
+            AngerLevel++;
+            if (AngerLevel >= 3) 
+            {
+                //if something is listening..
+                // if (Shout != null)
+                // {
+                    //...then call the delegate
+                //     Shout(this, EventArgs.Empty);
+                // }
+                //Below one-liner replaces the above 6 lines. Checking whether an object is null before calling one of its methods is very common. C# 6.0 and later allows the inline null check below.
+                Shout?.Invoke(this, EventArgs.Empty);
+            }
+        }
     }
 }
