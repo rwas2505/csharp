@@ -38,7 +38,7 @@ namespace PeopleApp
             // WriteLine($"5! is {Person.Factorial(5)}");
 
             //p.189 add a statement to assign the method to the delegate field
-            harry.Shout = Harry_Shout;
+            harry.Shout += Harry_Shout;
             //add statements to call the Poke method four times
             harry.Poke();
             harry.Poke();
