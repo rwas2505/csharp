@@ -38,13 +38,32 @@ namespace PeopleApp
             // WriteLine($"5! is {Person.Factorial(5)}");
 
             //p.189 add a statement to assign the method to the delegate field
-            harry.Shout += Harry_Shout;
+            // harry.Shout += Harry_Shout;
             //add statements to call the Poke method four times
-            harry.Poke();
-            harry.Poke();
-            harry.Poke();
-            harry.Poke();
+            // harry.Poke();
+            // harry.Poke();
+            // harry.Poke();
+            // harry.Poke();
 
+            //p.192 add statements that create an array of Person instances and writes the items to the console, and then attempts to sort the array and writes the items to the console again.
+            Person[] people =
+            {
+                new Person {Name = "Simon"},
+                new Person {Name = "Jenny"},
+                new Person {Name = "Adam"},
+                new Person {Name = "Richard"}
+            };
+            WriteLine("Initial list of people:");
+            foreach (var person in people)
+            {
+                WriteLine($"{person.Name}");
+            }
+            WriteLine($"Use Person's IComparable implementation to sort:");
+            Array.Sort(people);
+            foreach (var person in people)
+            {
+                WriteLine($"{person.Name}");
+            }
 
         }
     }

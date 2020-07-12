@@ -4,7 +4,7 @@ using static System.Console;
 
 namespace Packt.Shared
 {
-    public class Person
+    public class Person : IComparable<Person>
     {
         //fields
         public string Name;
@@ -77,6 +77,11 @@ namespace Packt.Shared
                 //Below one-liner replaces the above 6 lines. Checking whether an object is null before calling one of its methods is very common. C# 6.0 and later allows the inline null check below.
                 Shout?.Invoke(this, EventArgs.Empty);
             }
+        }
+
+        public int CompareTo(Person other)
+        {
+            return Name.CompareTo(other.Name);
         }
     }
 }
