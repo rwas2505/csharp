@@ -65,6 +65,14 @@ namespace PeopleApp
                 WriteLine($"{person.Name}");
             }
 
+            //add statements to sort the array using this alternative implementation p.195
+            WriteLine("Use PersonComparer's IComparer implementation to sort: ");
+            Array.Sort(people, new PersonComparer());
+            foreach (var person in people)
+            {
+                WriteLine($"{person.Name}");
+            }
+
         }
     }
 }
