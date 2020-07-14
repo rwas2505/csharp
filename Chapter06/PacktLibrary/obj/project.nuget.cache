@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zms3unVU70UxH/FDR9zvRJrCGiGZHBDr5i3OSAz+brPWajnXh2UldsGdT8u8QaKoy4JCYLPecs35JxaPORrjPA==",
+  "dgSpecHash": "3fcksJ1lbwipaVtWr7g+/JVk7hooRl5QYm8xINi49O/Yp0DHhXbqEWR3iI0rab489xol/F9tHm0NzPfEB6E2Fg==",
   "success": true,
   "projectFilePath": "C:\\Users\\rwaszak\\Desktop\\Code\\csharp\\Chapter06\\PacktLibrary\\PacktLibrary.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\rwaszak\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\rwaszak\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
