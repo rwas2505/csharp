@@ -6,6 +6,7 @@ namespace PeopleApp
 {
     class Program
     {
+
         static void Main(string[] args)
         {
             //bob
@@ -146,13 +147,13 @@ namespace PeopleApp
             sam.Children.Add(new Person { Name = "Charlie" });
             sam.Children.Add(new Person { Name = "Ella"});
 
-            WriteLine($"Sam's first child is {sam.Children[0].Name}");
-            WriteLine($"Sam's second child is {sam.Children[1].Name}");
-            WriteLine($"Sam's first child is {sam[0].Name}");
-            WriteLine($"Sam's second child is {sam[1].Name}");
+            // WriteLine($"Sam's first child is {sam.Children[0].Name}");
+            // WriteLine($"Sam's second child is {sam.Children[1].Name}");
+            // WriteLine($"Sam's first child is {sam[0].Name}");
+            // WriteLine($"Sam's second child is {sam[1].Name}");
             //Good Practice: Only use indexers if it makes sense to use the square bracket, also known as array syntax. As you can see from the preceding example, indexers rarely add much value
-
-
+            
+        
 
         }
     }

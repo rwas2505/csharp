@@ -74,21 +74,27 @@ namespace PeopleApp
             // }
 
             //p.199-201
-            var t1 = new Thing();
-            t1.Data = 42;
-            WriteLine($"Thing with an integer: {t1.Process(42)}");
+            // var t1 = new Thing();
+            // t1.Data = 42;
+            // WriteLine($"Thing with an integer: {t1.Process(42)}");
 
-            var t2 = new Thing();
-            t2.Data = "apple";
-            WriteLine($"Thing with a string: {t2.Process("apple")}");
+            // var t2 = new Thing();
+            // t2.Data = "apple";
+            // WriteLine($"Thing with a string: {t2.Process("apple")}");
 
-            var gt1 = new GenericThing<int>();
-            gt1.Data = 42;
-            WriteLine($"GenericThing with an integer: {gt1.Process(42)}");
+            // var gt1 = new GenericThing<int>();
+            // gt1.Data = 42;
+            // WriteLine($"GenericThing with an integer: {gt1.Process(42)}");
 
-            var gt2 = new GenericThing<string>();
-            gt2.Data = "apple";
-            WriteLine($"GenericThing with a string: {gt2.Process("apple")}");
+            // var gt2 = new GenericThing<string>();
+            // gt2.Data = "apple";
+            // WriteLine($"GenericThing with a string: {gt2.Process("apple")}");
+
+            //p.202
+            string number1 = "4";
+            byte number2 = 3;
+            WriteLine($"{number1} squared is {Squarer.Square<string>(number1)}");
+            WriteLine($"{number2} squared is {Squarer.Square(number2)}");
 
         }
     }
