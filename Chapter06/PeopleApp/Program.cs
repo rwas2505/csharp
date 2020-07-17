@@ -91,10 +91,16 @@ namespace PeopleApp
             // WriteLine($"GenericThing with a string: {gt2.Process("apple")}");
 
             //p.202
-            string number1 = "4";
-            byte number2 = 3;
-            WriteLine($"{number1} squared is {Squarer.Square<string>(number1)}");
-            WriteLine($"{number2} squared is {Squarer.Square(number2)}");
+            // string number1 = "4";
+            // byte number2 = 3;
+            // WriteLine($"{number1} squared is {Squarer.Square<string>(number1)}");
+            // WriteLine($"{number2} squared is {Squarer.Square(number2)}");
+
+            //p.204
+            var dv1 = new DisplacementVector(3,5);
+            var dv2 = new DisplacementVector(-2,7);
+            var dv3 = dv1 + dv2;
+            WriteLine($"({dv1.X}, {dv1.Y}) + ({dv2.X}, {dv2.Y}) = ({dv3.X}, {dv3.Y})");
 
         }
     }
