@@ -57,6 +57,11 @@ namespace Packt.Shared
                 return localNumber * localFactorial(localNumber - 1);
             }
         }
+        //overridden methods
+        public override string ToString()
+        {
+            return $"{Name} is a {base.ToString()}";
+        }
 
         // event delegate field
         public event EventHandler Shout;

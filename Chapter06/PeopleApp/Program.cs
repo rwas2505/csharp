@@ -109,9 +109,14 @@ namespace PeopleApp
                 DateOfBirth = new DateTime(1990, 7, 28)
             };
             john.WriteToConsole();
+
+            //p.208-209 extending classes and hiding members
             john.EmployeeCode = "JJ001";
             john.HireDate = new DateTime(2014, 11, 23);
             WriteLine($"{john.Name} was hired on {john.HireDate:dd/MM/yy}");
+
+            //p.210 Overriding members. write value of the john variable to the console as a string
+            WriteLine(john.ToString());
 
         }
     }
