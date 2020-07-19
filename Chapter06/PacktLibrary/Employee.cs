@@ -1,4 +1,5 @@
 using System;
+using static System.Console;
 
 namespace Packt.Shared
 {
@@ -6,6 +7,10 @@ namespace Packt.Shared
     {
         public string EmployeeCode {get; set;}
         public DateTime HireDate {get; set;}
+        public new void WriteToConsole()
+        {
+            WriteLine($"{Name} was born on {DateOfBirth:dd/MM/yy} and hired on {HireDate:dd/MM/yy}.");
+        }
         
     }
 }
