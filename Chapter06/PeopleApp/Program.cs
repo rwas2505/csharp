@@ -108,15 +108,32 @@ namespace PeopleApp
                 Name = "John Jones",
                 DateOfBirth = new DateTime(1990, 7, 28)
             };
-            john.WriteToConsole();
+            // john.WriteToConsole();
 
             //p.208-209 extending classes and hiding members
             john.EmployeeCode = "JJ001";
             john.HireDate = new DateTime(2014, 11, 23);
-            WriteLine($"{john.Name} was hired on {john.HireDate:dd/MM/yy}");
+            // WriteLine($"{john.Name} was hired on {john.HireDate:dd/MM/yy}");
 
             //p.210 Overriding members. write value of the john variable to the console as a string
-            WriteLine(john.ToString());
+            // WriteLine(john.ToString());
+
+            //p.212 create new employee and call WriteToConsole and ToString methods from the Person and Employee classes
+            Employee aliceInEmployee = new Employee
+            {
+                Name = "Alice",
+                EmployeeCode = "AA123"
+            };
+
+            Person aliceInPerson = aliceInEmployee;
+
+            aliceInEmployee.WriteToConsole();
+            aliceInPerson.WriteToConsole();
+            
+            WriteLine(aliceInEmployee.ToString());
+            WriteLine(aliceInPerson.ToString());
+
+
 
         }
     }
