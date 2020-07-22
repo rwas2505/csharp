@@ -127,12 +127,28 @@ namespace PeopleApp
 
             Person aliceInPerson = aliceInEmployee;
 
-            aliceInEmployee.WriteToConsole();
-            aliceInPerson.WriteToConsole();
+            // aliceInEmployee.WriteToConsole();
+            // aliceInPerson.WriteToConsole();
             
-            WriteLine(aliceInEmployee.ToString());
-            WriteLine(aliceInPerson.ToString());
+            // WriteLine(aliceInEmployee.ToString());
+            // WriteLine(aliceInPerson.ToString());
 
+            //p.214-215 Explicit casting and avoiding casting exceptions
+            if (aliceInPerson is Employee)
+            {
+                // WriteLine($"{nameof(aliceInPerson)} IS an Employee");
+
+                Employee explicitAlice = (Employee)aliceInPerson;
+                //safely do something with explicitAlice
+            }
+
+            Employee aliceAsEmployee = aliceInPerson as Employee;
+
+            if (aliceAsEmployee != null)
+            {
+                WriteLine($"{nameof(aliceInPerson)} AS an Employee");
+                //do something with aliceAsEmployee
+            }
 
 
         }

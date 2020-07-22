@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rwaszak\\Desktop\\Code\\csharp\\Chapter06\\PacktLibrary\\PacktLibrary.csproj": {}
+    "/Users/ryan/Desktop/csharp/Chapter06/PacktLibrary/PacktLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rwaszak\\Desktop\\Code\\csharp\\Chapter06\\PacktLibrary\\PacktLibrary.csproj": {
+    "/Users/ryan/Desktop/csharp/Chapter06/PacktLibrary/PacktLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rwaszak\\Desktop\\Code\\csharp\\Chapter06\\PacktLibrary\\PacktLibrary.csproj",
+        "projectUniqueName": "/Users/ryan/Desktop/csharp/Chapter06/PacktLibrary/PacktLibrary.csproj",
         "projectName": "PacktLibrary",
-        "projectPath": "C:\\Users\\rwaszak\\Desktop\\Code\\csharp\\Chapter06\\PacktLibrary\\PacktLibrary.csproj",
-        "packagesPath": "C:\\Users\\rwaszak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rwaszak\\Desktop\\Code\\csharp\\Chapter06\\PacktLibrary\\obj\\",
+        "projectPath": "/Users/ryan/Desktop/csharp/Chapter06/PacktLibrary/PacktLibrary.csproj",
+        "packagesPath": "/Users/ryan/.nuget/packages/",
+        "outputPath": "/Users/ryan/Desktop/csharp/Chapter06/PacktLibrary/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rwaszak\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/ryan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -50,7 +50,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3fcksJ1lbwipaVtWr7g+/JVk7hooRl5QYm8xINi49O/Yp0DHhXbqEWR3iI0rab489xol/F9tHm0NzPfEB6E2Fg==",
+  "dgSpecHash": "KAtRmNaKAg4PNVQcPJJ7UhDr/dYjNE2fcGyCODtOdyBcaiGZX7JjL3UTvZDu+30tVHCudjEXMqZSNy4d7ovxyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rwaszak\\Desktop\\Code\\csharp\\Chapter06\\PacktLibrary\\PacktLibrary.csproj",
+  "projectFilePath": "/Users/ryan/Desktop/csharp/Chapter06/PacktLibrary/PacktLibrary.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
