@@ -151,15 +151,23 @@ namespace PeopleApp
             }
 
             //p.217
-            try
-            {
-                john.TimeTravel(new DateTime(1999, 12, 31));
-                john.TimeTravel(new DateTime(1950, 12, 25));
-            }
-            catch (PersonException ex)
-            {
-                WriteLine(ex.Message);
-            }
+            // try
+            // {
+            //     john.TimeTravel(new DateTime(1999, 12, 31));
+            //     john.TimeTravel(new DateTime(1950, 12, 25));
+            // }
+            // catch (PersonException ex)
+            // {
+            //     WriteLine(ex.Message);
+            // }
+
+            //p.218 add statements to validate two examples of email addresses
+            string email1 = "pamela@test.com";
+            string email2 = "ian@test.com";
+
+            WriteLine($"{email1} is a valid e-mail address: {StringExtensions.IsValidEmail(email1)}");
+
+            WriteLine($"{email2} is a valid e-mail address: {StringExtensions.IsValidEmail(email2)}");
 
 
         }
