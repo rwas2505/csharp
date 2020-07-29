@@ -146,8 +146,19 @@ namespace PeopleApp
 
             if (aliceAsEmployee != null)
             {
-                WriteLine($"{nameof(aliceInPerson)} AS an Employee");
+                // WriteLine($"{nameof(aliceInPerson)} AS an Employee");
                 //do something with aliceAsEmployee
+            }
+
+            //p.217
+            try
+            {
+                john.TimeTravel(new DateTime(1999, 12, 31));
+                john.TimeTravel(new DateTime(1950, 12, 25));
+            }
+            catch (PersonException ex)
+            {
+                WriteLine(ex.Message);
             }
 
 
